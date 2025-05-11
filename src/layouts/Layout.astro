@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="generator" content={Astro.generator} />
     <title>Miguel Gallardo | Web Developer</title>
   </head>
@@ -47,21 +53,6 @@
     margin: 0;
     padding: 0;
   }
-
-  @media (prefers-color-scheme: dark) {
-    html {
-      font-family:
-        Menlo,
-        Monaco,
-        Lucida Console,
-        "Courier New",
-        Courier,
-        monospace;
-      background: #fff;
-      letter-spacing: -0.025rem;
-    }
-  }
-
   *,
   *:before,
   *:after {
@@ -74,6 +65,7 @@
   h4 {
     margin: 0;
     font-family:
+      Inter,
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -93,5 +85,17 @@
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+  }
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
+    .no-print {
+      display: none !important;
+    }
   }
 </style>

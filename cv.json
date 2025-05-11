@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Miguel Gallardo Fernández",
-    "label": "Desarrollo Front-End & Diseño Multimedia, orientado a los detalles y dedicado a crear productos de alta calidad.",
+    "label": "Desarrollo Front End & Diseño Multimedia, orientado a los detalles y dedicado a crear productos de alta calidad.",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "email": "miguel@gales.pe",
+    "phone": "+51 966 271 844",
     "url": "https://miguelg.vercel.app",
     "summary": "+2 años de experiencia en Desarrollo Web. +7 años de experiencia en Diseño Multimedia eLearning. Especializado en diseño y experiencias únicas. He trabajado en diferentes entornos: desde acelerar el desarrollo de proyectos hasta liderar equipos.",
     "location": {
@@ -69,6 +69,17 @@
       "name": "Henry",
       "position": "Docencia",
       "url": "https://www.soyhenry.com/",
+      "startDate": "2011-03-01",
+      "endDate": "2016-05-01",
+      "summary": "Diseño y desarrollo de contenido multimedia para cursos online, creación de recursos interactivos y gestión de proyectos educativos. Colaboración con equipos multidisciplinarios para mejorar la calidad del contenido y la experiencia del usuario.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Ingenia (Babel)",
+      "position": "Programador Multimedia",
+      "url": "https://babelgroup.com",
       "startDate": "2011-03-01",
       "endDate": "2016-05-01",
       "summary": "Diseño y desarrollo de contenido multimedia para cursos online, creación de recursos interactivos y gestión de proyectos educativos. Colaboración con equipos multidisciplinarios para mejorar la calidad del contenido y la experiencia del usuario.",
@@ -165,7 +176,14 @@
         "Desarrollo Web", "Frontend", "JavaScript Framework", "SSR"
       ]
     },
-            {
+        {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -173,7 +191,7 @@
       ]
     },
     {
-      "name": "Sass",
+      "name": "Bootstrap",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Preprocessor"
@@ -186,68 +204,12 @@
         "Diseño UI/UX", "Prototipado", "Diseño Responsive"
       ]
     },
-    {
-      "name": "Photoshop",
-      "level": "Avanzado",
-      "keywords": [
-        "Diseño Gráfico", "Edición de Imágenes", "Diseño UI/UX"
-      ]
-    },
-    {
-      "name": "Illustrator",
-      "level": "Avanzado",
-      "keywords": [
-        "Diseño Gráfico", "Vector Graphics", "Diseño UI/UX"
-      ]
-    },
-    {
-      "name": "Premiere",
-      "level": "Avanzado",
-      "keywords": [
-        "Edición de Video", "Postproducción", "Diseño Multimedia"
-      ]
-    },
-    {
-      "name": "After Effects",
-      "level": "Avanzado",
-      "keywords": [
-        "Animación", "Efectos Visuales", "Diseño Multimedia"
-      ]
-    },
-    {
-      "name": "Storyline",
-      "level": "Avanzado",
-      "keywords": [
-        "Diseño de cursos eLearning", "Interactividad", "Diseño Multimedia"
-      ]
-    },
-    
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
+
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
       ]
     },
     {
@@ -258,17 +220,39 @@
       ]
     },
     {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
+    
     {
-      "name": "React",
+      "name": "Adobe Creative",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Diseño Gráfico", "Edición de Imágenes", "Diseño UI/UX"
+      ]
+    },
+    {
+      "name": "Storyline/Rise",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño de cursos eLearning", "Interactividad", "Diseño Multimedia"
       ]
     }
   ],
@@ -295,17 +279,17 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Gales",
       "isActive": true,
       "description": "Historia interactiva con retos de programación para viajar a Marte",
       "highlights": [
         "Elige tu propia aventura",
         "En desarrollo"
       ],
-      "url": "https://mars.codes"
+      "url": "https://gales.pe"
     },
     {
-      "name": "AdventJS",
+      "name": "Torres Construction",
       "isActive": true,
       "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
       "highlights": [
@@ -316,7 +300,7 @@
       "url": "https://adventjs.dev"
     },
     {
-      "name": "Codember",
+      "name": "SISCOG",
       "isActive": true,
       "description": "Juego interactivo de programación con retos y secretos",
       "highlights": [
@@ -324,37 +308,6 @@
         "Retos para cualquier lenguaje"
       ],
       "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
     }
   ]
 }

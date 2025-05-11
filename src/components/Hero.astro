@@ -8,6 +8,7 @@ import Globe from "@/icons/Globe.astro";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import X from "@/icons/X.astro";
+import { boolean } from "astro:schema";
 
 const { name, label, image, location, profiles, phone, email, url } = basics;
 const { city, country } = location;
@@ -17,6 +18,8 @@ const SOCIAL_ICONS = {
   LinkedIn,
   X,
 };
+
+const printInfo = [url, email, phone, ].filter(Boolean).join(" | ");
 ---
 
 <Section>
@@ -28,7 +31,21 @@ const SOCIAL_ICONS = {
         <MapPin />
         {city}, {country}
       </span>
+       <footer class="print">{printInfo}</footer>
       <footer class="no-print">
+       
+        {
+          url && (
+            <a
+              href={url}
+              title={`Ingresar a la web ${name}: ${url}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Globe />
+            </a>
+          )
+        }
         {
           email && (
             <a
@@ -50,18 +67,6 @@ const SOCIAL_ICONS = {
               rel="noopener noreferrer"
             >
               <Phone />
-            </a>
-          )
-        }
-        {
-          url && (
-            <a
-              href={url}
-              title={`Llamar por teléfono a ${name} al número ${url}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Globe />
             </a>
           )
         }
@@ -109,19 +114,6 @@ const SOCIAL_ICONS = {
     gap: 0.5rem;
     padding-right: 2rem;
   }
-
-  h1 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    margin: 0;
-    
-  }
-  h2 {
-    color: #444;
-    font-weight: 400;
-    font-size: 1.2rem;
-    text-wrap: balance;
-  }
   .profile img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -139,6 +131,8 @@ const SOCIAL_ICONS = {
   }
 
   footer {
+    color: #555;
+    font-size: 0.75rem;
     display: flex;
     gap: 0.25rem;
     margin-top: 0.5rem;

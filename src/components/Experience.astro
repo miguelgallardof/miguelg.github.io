@@ -1,5 +1,5 @@
 ---
-import Section from "../Section.astro";
+import Section from "@/components/Section.astro";
 
 import { work } from "@cv";
 
@@ -18,7 +18,7 @@ import { work } from "@cv";
             <article>
               <header>
                 <div>
-                  {url && (
+                  
                       <a
                         href={url}
                         title={`Ingresar a ${url}`}
@@ -29,7 +29,7 @@ import { work } from "@cv";
                           {name}
                         </h3>
                       </a>
-                    )}
+                  
                   <h4>{position}</h4>
                 </div>
                 <div>
