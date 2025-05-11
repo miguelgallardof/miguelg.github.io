@@ -1,11 +1,96 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+
+import KeyboardManager from "@/components/KeyboardManager.astro";
 ---
 
-<Layout>
-	<Welcome />
+<Layout
+  title="Miguel Gallardo | Desarrollador Web"
+  description="Miguel Gallardo, Desarrollador Web"
+>
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Skills />
+    <Projects />
+  </main>
+  <KeyboardManager />
 </Layout>
+
+<style is:global>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-weight: 500;
+    color: #111;
+    padding-bottom: 0.25rem;
+  }
+  h4 {
+    font-weight: 400;
+    color: #333;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: #666;
+    min-width: 100px;
+    cursor: default;
+    text-align: right;
+  }
+
+  [data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease-in-out 0.5s;
+    visibility: visible;
+  }
+
+  [data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
+    position: absolute;
+    padding: 0.2rem 0.5rem;
+    bottom: -1.4rem;
+    left: 50%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 1px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+  }
+
+  [data-title] {
+    position: relative;
+  }
+  @media print {
+    main {
+      padding: 0;
+    }
+  }
+</style>
