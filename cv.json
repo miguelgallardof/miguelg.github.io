@@ -281,33 +281,37 @@
     {
       "name": "Gales",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": null,
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Astro",
+        "Tailwind CSS",
+        "Ninja Keys"
       ],
       "url": "https://gales.pe"
     },
     {
       "name": "Torres Construction",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": null,
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Astro",
+        "Tailwind CSS",
+        "Ninja Keys",
+        "Figma"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://torresc.netlify.app"
     },
     {
       "name": "SISCOG",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": null,
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "WordPress",
+        "Elementor",
+        "Figma",
+        "JavaScript"
       ],
-      "url": "https://codember.dev"
+      "url": "https://siscog.pe"
     }
   ]
 }
