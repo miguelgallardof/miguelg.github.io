@@ -16,17 +16,17 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "miguelgallardof",
         "url": "https://github.com/miguelgallardof"
       },
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "miguelgallardof",
         "url": "https://linkedin.com/in/miguelgallardof"
       },
       {
         "network": "X",
-        "username": "midudev",
+        "username": "_miguelogf",
         "url": "https://x.com/_miguelogf"
       }
     ]
@@ -142,6 +142,7 @@
         "Desarrollo Web", "Frontend"
       ]
     },
+    
     {
       "name": "CSS",
       "level": "Master",
@@ -149,6 +150,7 @@
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
     },
+
     {
       "name": "JavaScript",
       "level": "Master",
@@ -156,13 +158,70 @@
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
     },
-    {
+  {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework", "SSR"
+      ]
+    },
+            {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
       ]
     },
+    {
+      "name": "Sass",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Preprocessor"
+      ]
+    },
+    {
+      "name": "Figma",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño UI/UX", "Prototipado", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Photoshop",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño Gráfico", "Edición de Imágenes", "Diseño UI/UX"
+      ]
+    },
+    {
+      "name": "Illustrator",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño Gráfico", "Vector Graphics", "Diseño UI/UX"
+      ]
+    },
+    {
+      "name": "Premiere",
+      "level": "Avanzado",
+      "keywords": [
+        "Edición de Video", "Postproducción", "Diseño Multimedia"
+      ]
+    },
+    {
+      "name": "After Effects",
+      "level": "Avanzado",
+      "keywords": [
+        "Animación", "Efectos Visuales", "Diseño Multimedia"
+      ]
+    },
+    {
+      "name": "Storyline",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño de cursos eLearning", "Interactividad", "Diseño Multimedia"
+      ]
+    },
+    
     {
       "name": "TypeScript",
       "level": "Avanzado",

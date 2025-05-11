@@ -1,5 +1,4 @@
 ---
-import Link from "@/icons/Link.astro";
 import Section from "../Section.astro";
 
 import { work } from "@cv";
@@ -12,7 +11,7 @@ import { work } from "@cv";
       work.map(({ name, url, startDate, endDate, position, summary }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Presente";
+          endDate != null ? new Date(endDate).getFullYear() : "Actualidad";
         const years = `${startYear} - ${endYear}`;
         return (
           <li>
