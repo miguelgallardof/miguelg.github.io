@@ -9,11 +9,14 @@ import Projects from "@/components/Projects.astro";
 import Skills from "@/components/Skills.astro";
 
 import KeyboardManager from "@/components/KeyboardManager.astro";
+
+import { basics } from "@cv";
+const { name, label } = basics;
 ---
 
 <Layout
-  title="Miguel Gallardo | Desarrollador Web"
-  description="Miguel Gallardo, Desarrollador Web"
+  title={`CV de ${name} | ${label}`}
+  description="CV de Miguel Gallardo | Desarrollador Web"
 >
   <main>
     <Hero />

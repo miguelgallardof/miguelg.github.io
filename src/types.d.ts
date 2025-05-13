@@ -1,0 +1,1 @@
+import { type SocialIcon } from "@/types"
