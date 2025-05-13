@@ -1,13 +1,24 @@
+---
+import { basics } from "@cv";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+
+const { image, summary } = basics;
+---
+
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <title>{title}</title>
+    <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <meta name="generator" content={Astro.generator} />
-    <title>Miguel Gallardo | Web Developer</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.webp" />
+    <link rel="preload" as="image" href={image} />
   </head>
   <body>
     <slot />
@@ -20,7 +31,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
   html {
     font-family:
       Menlo,
@@ -32,18 +42,15 @@
     background-color: #fff;
     letter-spacing: -0.025rem;
   }
-
   body,
   figure {
     margin: 0;
     padding: 0;
   }
-
   a {
     text-decoration: none;
     color: inherit;
   }
-
   ul {
     list-style: none;
     margin: 0;
@@ -55,6 +62,65 @@
     box-sizing: border-box;
   }
 
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  h2 {
+    color: #444;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-wrap: balance;
+  }
+  h3 {
+    font-weight: 600;
+    color: #111;
+    padding-bottom: 0.25rem;
+  }
+  h4 {
+    font-weight: 400;
+    color: #333;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: #666;
+    min-width: 100px;
+    cursor: default;
+    text-align: right;
+  }
+  [data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease-in-out 0.5s;
+    visibility: visible;
+  }
+  [data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
+    position: absolute;
+    padding: 0.2rem 0.5rem;
+    bottom: -1.4rem;
+    left: 50%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 1px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+  }
+  [data-title] {
+    position: relative;
+  }
   h1,
   h2,
   h3,
@@ -73,7 +139,6 @@
       "Helvetica Neue",
       sans-serif;
   }
-
   p {
     color: #666;
     font-size: 0.85rem;
@@ -84,7 +149,6 @@
   .print {
     display: none !important;
   }
-
   @media print {
     .print {
       display: block !important;
