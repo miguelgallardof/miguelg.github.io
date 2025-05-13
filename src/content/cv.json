@@ -47,8 +47,8 @@
       "name": "Captura eLearning",
       "position": "Diseñador Multimedia",
       "url": "https://captura.pe",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
+      "startDate": "2020-03-03",
+      "endDate": null,
       "summary": "Desarrollo de plataformas de aprendizaje online, desarrollo de contenido multimedia interactivo y gestión de proyectos educativos. Diseño de infografías interactivas y edición de video educativos.",
       "highlights": [
         "Started the company"
@@ -58,8 +58,8 @@
       "name": "Universidad Privada del Norte",
       "position": "Diseñador Multimedia",
       "url": "https://www.upn.edu.pe",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
+      "startDate": "2023-09-01",
+      "endDate": "2023-06-01",
       "summary": "Diseño y desarrollo de contenido multimedia para cursos online, creación de recursos interactivos y gestión de proyectos educativos. Colaboración con equipos multidisciplinarios para mejorar la calidad del contenido y la experiencia del usuario.",
       "highlights": [
         "Started the company"
@@ -69,19 +69,19 @@
       "name": "Henry",
       "position": "Docencia",
       "url": "https://www.soyhenry.com/",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-01",
       "summary": "Diseño y desarrollo de contenido multimedia para cursos online, creación de recursos interactivos y gestión de proyectos educativos. Colaboración con equipos multidisciplinarios para mejorar la calidad del contenido y la experiencia del usuario.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Ingenia (Babel)",
+      "name": "Ingenia | Babel",
       "position": "Programador Multimedia",
       "url": "https://babelgroup.com",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
+      "startDate": "2020-01-31",
+      "endDate": "2017-04-01",
       "summary": "Diseño y desarrollo de contenido multimedia para cursos online, creación de recursos interactivos y gestión de proyectos educativos. Colaboración con equipos multidisciplinarios para mejorar la calidad del contenido y la experiencia del usuario.",
       "highlights": [
         "Started the company"
@@ -117,8 +117,8 @@
     "url": "https://www.uoc.edu/portal/es/index.html",
     "area": "Diseño y Desarrollo de Videojuegos",
     "studyType": "Bachelor",
-    "startDate": "2022-04-01",
-    "endDate": "2023-02-01",
+    "startDate": "2014-03-01",
+    "endDate": "2016-12-21",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -281,7 +281,7 @@
     {
       "name": "Gales",
       "isActive": true,
-      "description": null,
+      "description": "Gales es una empresa dedicada al desarrollo web y diseño multimedia. Nos especializamos en crear experiencias únicas y personalizadas para nuestros clientes, utilizando tecnologías de vanguardia y un enfoque centrado en el usuario.",
       "highlights": [
         "Astro",
         "Tailwind CSS",
@@ -292,7 +292,7 @@
     {
       "name": "Torres Construction",
       "isActive": true,
-      "description": null,
+      "description": "Torres Construction es una empresa dedicada a la construcción y remodelación de espacios. Nos enfocamos en ofrecer soluciones personalizadas y de alta calidad para nuestros clientes, utilizando materiales y técnicas innovadoras.",
       "highlights": [
         "Astro",
         "Tailwind CSS",
@@ -304,7 +304,7 @@
     {
       "name": "SISCOG",
       "isActive": true,
-      "description": null,
+      "description": "SISCOG es una empresa dedicada a la gestión de proyectos y consultoría en el ámbito tecnológico. Nos especializamos en ofrecer soluciones personalizadas y de alta calidad para nuestros clientes, utilizando tecnologías de vanguardia y un enfoque centrado en el usuario.",
       "highlights": [
         "WordPress",
         "Elementor",
