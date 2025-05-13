@@ -21,7 +21,7 @@ import { projects } from "@cv";
                   >
                     {name}
                   </a>
-                  {isActive && <span>&bull;</span>}
+                  {isActive && <span class="no-print">&bull;</span>}
                 </h3>
                 <p>{description}</p>
               </header>
@@ -78,6 +78,7 @@ import { projects } from "@cv";
 
   article h3 span {
     color: rgb(0, 188, 47);
+    animation: pulse 1s linear infinite;
   }
 
   footer {
@@ -93,5 +94,20 @@ import { projects } from "@cv";
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.25rem 0.6rem;
+  }
+
+  @keyframes pulse {
+    0% {
+      scale: 1;
+      opacity: 0;
+    }
+    50% {
+      scale: 1.2;
+      opacity: 1;
+    }
+    100% {
+      scale: 1;
+      opacity: 0;
+    }
   }
 </style>
